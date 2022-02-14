@@ -1,0 +1,432 @@
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    width: 1250px;
+    margin: 10px 200px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    padding-top: 0px;
+    padding-bottom: 5px;
+    box-shadow: 0px 1px 1px rgb(224, 223, 223);
+    background-color: rgb(247, 247, 247);
+}
+
+.logo{
+    padding-top: 15px;
+    width: 25%;
+    height: auto;
+}
+
+.logo img{
+    width: 45%;
+    margin-top: 20px;
+}
+
+.nav{
+    padding-top: 20px;
+    width: 40%;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(107, 105, 105);
+    margin-right: 35px;
+    margin-left: 0px;
+}
+
+.nav a:hover{
+    color: dodgerblue;
+}
+
+.box1{
+    padding-top: 70px;
+    width: 39%;
+    margin: 10px 20px 10px 300px ;
+}
+
+.text{
+    color: rgb(65, 65, 65);
+    text-align: center;
+    margin-right: 200px;
+}
+
+.text h2{
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 420;
+}
+
+.text h4{
+    margin-top: -20px;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.text a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 35px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 107, 214);
+    border-radius: 4px;
+}
+
+.text a:hover{
+    background-color: rgb(39, 36, 36);
+}
+
+.margin{
+    margin-left: -10px;
+    margin-right: 100px;
+}
+
+.box2{
+    padding-top: 25px;
+    width: 41%;
+}
+
+.box2 img{
+    margin-top: 130px;
+    width: 100%;
+}
+
+.box3{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.box3 h2{
+    font-weight: 450;
+    font-size: 35px;
+    color: rgb(73, 73, 73);
+}
+
+.box3 p{
+    margin-right: 80px;
+    font-size: 18px;
+}
+
+.list1{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.list1 ul{ 
+    padding-top: 10px;
+}
+
+.list1 li{
+    margin-top: 10px;
+}
+
+.box3 img{
+    padding-top: 15px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.abc{
+    padding-top: 80px;
+}
+
+.abc h1{
+    margin-right: 70px;
+    text-align: center;
+    font-weight: 450;
+    color: rgb(58, 58, 58);
+    font-size: 35px;
+}
+
+.abc h3{
+    margin-left: 350px;
+    width: 40%;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.abc img{
+    width: 90%;
+}
+
+.abc h4{
+    padding-top: 1px;
+    margin-right: 170px;
+    text-align: center;
+}
+
+.abc a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(0, 128, 255);
+}
+.abc a:hover{
+    color: rgb(44, 43, 43);
+}
+
+.def{
+    padding-top: 90px;
+}
+.def_1{
+    width: 40%;
+}
+
+.def_2{
+    text-align: center;
+    width: 15%;
+    margin-left: 50px;
+    border-top:  1px solid rgb(110, 110, 110);
+    border-bottom:  1px solid rgb(110, 110, 110);
+    border-right:  1px solid rgb(168, 168, 168);
+    border-left: 0.5px solid rgb(110, 110, 110);
+    padding-right: 2%;
+}
+
+.def_3{
+    text-align: center;
+    width: 20%;
+    border-top:  1px solid rgb(110, 110, 110);
+    border-bottom:  1px solid rgb(110, 110, 110);
+    border-right:  1px solid rgb(110, 110, 110);
+    border-left: 0.5px solid rgb(175, 175, 175);
+}
+
+.def_1 h2{
+    font-weight: 500;
+    font-size: 35px;
+    color: rgb(68, 66, 66);
+}
+
+.def_1 h4{
+    font-weight: 400;
+    color: rgb(68, 66, 66);
+    font-size: 17px;
+}
+
+.def_1 a{
+    text-decoration: none;
+    color: rgb(4, 125, 245);
+    font-size: 15px;
+}
+
+.def_2 h2{
+    font-size: 50px;
+    font-weight: 500;
+    color:rgb(68, 66, 66);
+}
+
+.def_2 h4{
+    font-weight: 450;
+    font-size: 15px;
+}
+
+.def_3 h2{
+    font-size: 50px;
+    font-weight: 500;
+    color:rgb(68, 66, 66);
+}
+
+.def_3 h4{
+    font-weight: 450;
+    font-size: 20px;
+}
+
+.def a:hover{
+    color: rgb(44, 43, 43);
+}
+
+.qna_img {
+    padding-top: 15%;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.qna_text{
+    padding-top: 25%;
+    width: 40%;
+}
+
+.qna_text h2{
+    font-weight: 450;
+    font-size: 25px;
+    color:rgb(68, 66, 66);
+}
+
+.qna_text h4{
+    font-weight: 450;
+    font-size: 16px;
+    color: rgb(68, 66, 66);
+}
+
+.qna_text a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(9, 122, 236);
+}
+
+.qna_text a:hover{
+    color: rgb(43, 43, 43);
+}
+
+.xyz{
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.xyz h1{
+    text-align: center;
+    font-weight: 450;
+    font-size: 35px;
+    margin-right: 400px;
+    color:rgb(68, 66, 66) ;
+}
+
+.xyz h4{
+    font-weight: 500;
+    padding-top: 15px;
+    margin-right: 250px;
+    margin-left: -55px;
+    padding-bottom: 40px;
+    color: rgb(68, 66, 66);
+}
+
+.xyz a{
+    margin-left: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 35px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 107, 214);
+    border-radius: 4px;
+}
+
+.xyz a:hover{
+    background-color: rgb(39, 36, 36);
+}
+
+.footer{
+    margin-top: 150px;
+    border-top: 1px solid rgb(107, 107, 107);
+}
+
+.social{
+    padding-top: 100px;
+}
+
+.social h4{
+    font-weight: 400;
+}
+
+.social a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.social img{
+    width: 25%;
+}
+
+.company{
+    padding-top: 70px;
+    margin-left: -254px;
+}
+
+.company h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(85, 85, 85);
+}
+
+.company a{
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+}
+
+.company a:hover{
+    color: rgb(0, 123, 247);
+}
+
+.support{
+    padding-top: 70px;
+    margin-left: 100px;
+}
+
+.support h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(85, 85, 85);
+}
+
+.support a{
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+}
+
+.support a:hover{
+    color: rgb(0, 123, 247);
+}
+
+.account{
+    padding-top: 70px;
+    margin-left: 120px;
+}
+
+.account h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(85, 85, 85);
+}
+
+.account a{
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+}
+
+.account a:hover{
+    color: rgb(0, 123, 247);
+}
+
+.ref{
+    padding-top: 40px;
+}
+.ref p{
+    font-size: 10px;
+    color: rgb(158, 158, 158);
+}
+
+.ref a{
+    margin-right: 10px;
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+}
+
+.ref a:hover{
+    color: rgb(0, 123, 247);
+}
+
+.ref p a{
+    color: rgb(0, 123, 247);
+}
+
+.ref p a:hover{
+    color: black;
+}
+
+.uvw{
+    margin-left: 200px;
+}
